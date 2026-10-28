@@ -1,0 +1,9 @@
+section{
+    text-align: center;
+}
+section img{
+    width: 50%;
+    border-radius: 25px;
+    margin: 10%;
+    box-shadow: 12px 12px 30px gold;
+}

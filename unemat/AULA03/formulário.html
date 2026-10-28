@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Aprendendo formulários</title>
+</head>
+<body>
+    <nav>
+        <a href="index.html">Página inicial</a> |
+        <a href="formulário.html">Formulário</a>
+    </nav>
+    <hr>
+    <main>
+        <h1>Formulário</h1>
+        <form action="" method="post"> <!-- HTTP methods-->
+            <fieldset>
+                <legend>
+                    Dados pessoais
+                </legend>
+                <label for="nome">Nome:</label>
+                <input id="nome" name="nome" type="text" placeholder="Digite seu nome">
+                <br>
+                <label for="email">Email:</label>
+                <input id="email" name="email" type="email" placeholder="Digite seu email">
+                <br>
+                <label for="telefone">Telefone:</label>
+                <input id="telefone" name="telefone" type="tel" placeholder="Digite seu telefone">
+                <br>
+                <label for="cpf">CPF:</label>
+                <input id="cpf" name="cpf" type="text" placeholder="Digite seu CPF" maxlength="11">
+                <br>
+                <label for="senha">Senha:</label>
+                <input id="senha" name="senha" type="password" placeholder="Digite sua senha" required>
+            </fieldset>
+            <fieldset>
+                <legend>
+                    Endereço
+                </legend>
+                <input type="submit" name="enviar">
+            </fieldset>
+        </form>
+    </main>
+</body>
+</html>

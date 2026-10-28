@@ -1,0 +1,42 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+header{
+    min-width: 100%;
+    background: linear-gradient(to right, red, yellow);
+    min-height: 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header img{
+    width: auto;
+    height: auto;
+}
+header button{
+    font-size: 1.5rem;
+    padding: 1.5rem;
+    margin-right: 2rem;
+    border-radius: 30px;
+    border: solid 2px gray;
+    cursor: pointer;
+    box-shadow: 3px 4px black;
+}
+nav{
+    width: 100%;
+    background-color: yellow;
+    display: flex;
+    justify-content: center;
+}
+nav a{
+    font-size: 2rem;
+    padding: 1rem;
+    text-decoration: none;
+    color: black;
+    background-color: tomato;
+}
+nav a:hover{
+    background-color: transparent;
+}

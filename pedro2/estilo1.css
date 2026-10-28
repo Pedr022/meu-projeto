@@ -1,0 +1,120 @@
+body {
+    background-color: darkslategray;
+    height: 5000px;
+    border: 0;
+    box-sizing: border-box;
+}
+.log {
+    text-decoration: none;
+    background-color: #333;
+    border: 0;
+    margin-left: 5px;
+    margin-right: 0;
+    width: 30px;
+}
+.search-bloco {
+    text-decoration: none;
+    background-color: #333;
+    float: left;
+    display: inline;
+    border: 0;
+    margin-left: 50px;
+    margin-right: 0;
+    padding: 0;
+    color: white;
+}
+nav {
+    background-color: #333;
+    overflow: hidden;
+    position: fixed;
+    width: 100%;
+    float: inline-start;
+}
+.log img {
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    margin-top: 0;
+}
+nav .log {
+    color: #fff;
+    float: left;
+    display: block;
+    padding: 0;
+    height: 20px;
+}
+nav a {
+    color: #fff;
+    float: right;
+    display: block;
+    padding: 14px 16px;
+    margin-left: 0;
+    text-decoration: none;
+}
+nav a:hover {
+    transition: 0.5s;
+    color: #333;
+    background-color: #fff;
+}
+.search {
+    border-radius: 10px;
+    border: none;
+    height: 20px;
+}
+#search-input {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+h1 {
+    color: chocolate;
+    text-decoration: underline;
+    font-size: 40px; 
+}
+div {
+    width: 45%;
+    background-color: bisque;
+    border-radius: 10px;
+    padding: 5px 40px 5px 40px;
+    margin: 10px 40px 20px 70px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    float: left;
+    border: solid 5px;
+    border-color: #D22730;
+}
+.linha {
+    width: 90%;
+    text-align: center;
+    margin-top: 70px;
+    margin-left: 20px;
+    margin-right: 0;
+}
+.quadro {
+    width: 360px;
+    text-align: center;
+    padding: 10px;
+    margin: 10px 40px 30px 0;
+    float: right;
+}
+.quadro p {
+    font-size: 14px;
+    color: gray;
+}
+.noder {
+    width: 661px;
+    margin: 10px 30px 20px 70px;
+    float: inline-start;
+    display: block;
+}
+.noder p {
+    font-size: 20px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.noder a {
+    text-decoration: none;
+    color: black;
+    text-decoration: underline;
+}
+.noder a:hover  {
+    transition: 0.5s;
+    background-color: darkcyan;
+}

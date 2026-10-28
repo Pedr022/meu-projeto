@@ -1,0 +1,225 @@
+.img_site{
+    width: 50px;
+    height: 50px;
+    border-radius: 15px;
+    transition: transform 0.3s ease;
+}
+.img_site:hover{
+    transform: translateY(-5px);
+}
+header{
+    background-color: darkcyan;
+    padding: 20px;
+    color: white;
+    display: inline-block;
+    width: 100%;
+} 
+header div{
+    justify-content: start;
+    display: inline-block;
+    align-content: center;
+}
+.user{
+    float: right;
+    justify-content: end;
+    align-content: end;
+    padding: 5px 15px;
+    margin: 10px 30px;
+    transition: 0.3s ease;
+}
+.user:hover{
+    transform: translateY(-5px);
+}
+header div h1{
+    font-size: 20px;
+    margin: 5px;
+    background-color: orangered;
+    border-radius: 20px 5px 20px 5px;
+    padding: 5px;
+}
+header div a{
+    text-decoration: none;
+    color: white;
+}
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: bisque;
+}
+nav a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+}
+nav ul{
+    list-style-type: none;
+}
+nav ul li{
+    display: inline;
+    margin: 0 15px;
+    padding: 0 50px;
+}
+.info{
+    justify-content: center;
+    margin: 0 70px;
+}
+nav ul li a:hover{
+    transition: 0.3s;
+    color: white;
+    background-color: orangered;
+    padding: 10px;
+    border-radius: 15px;
+}
+nav ul li a:not(:hover){
+    transition: 0.3s;
+    color: white;
+}
+#hero{
+    text-align: center;
+    background-image: url('https://classic.exame.com/wp-content/uploads/2020/09/G-28529-27_Winner-and-Overall-Winner_Andromeda-Galaxy-at-Arms-Length-%C2%A9-Nicolas-Lefaudeux.jpg.optimal.jpg?ims=750x/filters:quality(75):format(webp)');
+    padding: 120px 0 210px 20px;
+    color: white;
+    background-size: cover;
+}
+#hero a{
+    text-decoration: none;
+    color: white;
+    background-color: orangered;
+    padding: 10px 20px;
+    border-radius: 15px;
+    font-size: 17px;
+    font-weight: bold;
+}
+#hero a:hover{
+    transition: 0.3s;
+    padding: 15px 25px;
+    border-radius: 20px;
+    font-size: 20px;
+}
+#hero a:not(:hover){
+    transition: 0.3s;
+    padding: 10px 20px;
+    border-radius: 15px;
+    font-size: 17px;
+}
+#hero h2{
+    font-size: 45px;
+}
+#hero p{
+    font-size: 25px;
+    margin-bottom: 60px;
+}
+.destinos img{
+    width: 310px;
+    border-radius: 10px;
+}
+#destinos{
+    text-align: center;
+}
+#destinos div{
+    display: inline-block;
+    text-align: center;
+    align-content: center;
+    align-items: center;
+    width: 270px;
+    height: 150px;
+    margin: 50px;
+}
+#destinos h2, #pacotes h2{
+    font-size: 40px;
+    margin: 130px 0 50px 0;
+}
+.destinos img:hover{
+    transition: 0.3s;
+    width: 325px;
+}
+.destinos img:not(:hover){
+    transition: 0.3s;
+    width: 310px;
+}
+#destinos h3, #pacotes h3{
+    text-align: center;
+    font-size: 25px;
+}
+#pacotes{
+    text-align: center;
+}
+#pacotes h2{
+    text-align: center;
+    margin-top: 230px;
+    margin-bottom: 50px;
+}
+#pacotes div{
+    display: inline-block;
+    text-align: center;
+    width: 270px;
+    margin: 30px 50px;
+}
+.preco{
+    border: solid 2px darkcyan;
+    width: 150px;
+    border-radius: 15px;
+}
+#contato{
+    text-align: center;
+}
+#contato h2{
+    margin-top: 100px;
+}
+#contato form{
+    display: inline-block;
+    text-align: left;
+}
+#contato label{
+    display: block;
+    font-weight: bold;
+    margin: 15px;
+}
+#contato input, #contato textarea{
+    margin: 15px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 10px gray;
+    width: 250px;
+}
+#contato button{
+    text-align: center;
+    display: block;
+    text-decoration: none;
+    width: 77px;
+    height: 32px;
+    background-color: darkcyan;
+    border: inherit;
+    color: white;
+    border-radius: 10px;
+    font-size: 16px;
+    margin: 25px;
+}
+#contato button:hover{
+    transition: 0.3s;
+    width: 80px;
+    height: 35px;
+    border-radius: 12px;
+    font-size: 17px;
+    background-color: rgb(0, 99, 99);
+}
+#contato button:not(:hover){
+    transition: 0.3s;
+    width: 77px;
+    height: 32px;
+    border-radius: 10px;
+    font-size: 16px;
+    background-color: darkcyan;
+}
+footer{
+    text-align: center;
+    background-color: darkcyan;
+    width: 100%;
+    padding: 20px;
+    position: relative;
+    bottom: 0;
+    color: white;
+}
