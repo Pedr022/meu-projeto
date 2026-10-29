@@ -1,11 +1,15 @@
 import time
 from mensagem3 import escrever
 
+def corrigeCaminho(caminho):
+    nome = caminho.split('\\')
+    return nome[-1]
+    
 def verifNomeArquivo(nome_arquivo):
-    nome = str(nome_arquivo).split('.')
+    nome = str(corrigeCaminho(nome_arquivo)).split('.')
 
     try:
-        if nome[1] != 'txt':
+        if nome[-1] != 'txt':
             return False
         else:
             return True
