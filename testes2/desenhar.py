@@ -48,7 +48,7 @@ while True:
         break
     elif opcao == '1':
         while True:
-            nome_arquivo = r"{input('Digite o caminho completo do arquivo: ')}"
+            nome_arquivo = input('Digite o caminho completo do arquivo: ')
 
             if verifNomeArquivo(nome_arquivo):
                 arquivo = open(nome_arquivo, 'r')
