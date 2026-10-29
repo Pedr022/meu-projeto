@@ -44,7 +44,7 @@ while True:
         break
     elif opcao == '1':
         while True:
-            nome_arquivo = r'{C:\Users\pedro\OneDrive\Documentos\vscode\AULA_UNEMAT\testes\}' + input('Digite o nome do arquivo: ')
+            nome_arquivo = r"{input('Digite o caminho completo do arquivo: ')}"
 
             if verifNomeArquivo(nome_arquivo):
                 arquivo = open(nome_arquivo, 'r')
