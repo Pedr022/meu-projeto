@@ -1,8 +1,8 @@
 def getNotas():
     return float(input('Digite sua nota: '))
 
-def calcMedia(n1, n2, n3):
-    return (n1 + n2 + n3) / 3
+def calcMedia(lista):
+    return sum(lista) / len(lista)
 
 def verifMedia(valor, media=6):
     if valor >= media:
@@ -40,7 +40,7 @@ while True:
         for e in range(3):
             lista_notas.append(getNotas())
 
-        media = calcMedia(lista_notas[0], lista_notas[1], lista_notas[2])
+        media = calcMedia(lista_notas)
         verif_aprovacao, media_necessaria = verifMedia(media, 5)
 
         escreveStatus(media, verif_aprovacao, media_necessaria)
