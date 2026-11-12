@@ -1,0 +1,179 @@
+body {
+    background-color: darkslategray;
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+header {
+    background-color: rgb(80, 6, 252);
+    border-radius: 0 0 130px 0;
+    width: 100%;
+}
+.head {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+.head div {
+    margin: 50px;
+}
+.botao1 button {
+    background-color: rgb(80, 6, 252);
+    border: 0;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.botao1 button a {
+    text-decoration: none;
+    color: white;
+}
+.botao2 button {
+    background-color: rgb(80, 6, 252);
+    border: 0;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.botao2 button a {
+    text-decoration: none;
+    color: white;
+}
+.botao3 button {
+    background-color: rgb(80, 6, 252);
+    border: 0;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.botao3 button a {
+    text-decoration: none;
+    color: white;
+}
+.botao1 button :hover {
+    transition: 0.3s;
+    padding: 10px 10px;
+    border-radius: 20px;
+    background-color: chocolate;
+    font-size: 22px;
+}
+.botao1 button :not(:hover) {
+    transition: 0.3s;
+}
+.botao2 button :hover {
+    transition: 0.3s;
+    padding: 10px 10px;
+    border-radius: 20px;
+    background-color: rgb(30, 33, 210);
+    font-size: 22px;
+}
+.botao2 button :not(:hover) {
+    transition: 0.3s;
+}
+.botao3 button :hover {
+    transition: 0.3s;
+    padding: 10px 10px;
+    border-radius: 20px;
+    background-color: rgb(66, 210, 30);
+    font-size: 22px;
+}
+.botao3 button :not(:hover) {
+    transition: 0.3s;
+}
+.botao4 button {
+    background-color: rgb(80, 6, 252);
+    border: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: white;
+}
+footer {
+    text-align: center;
+    background-color: gray;
+    width: 100%;
+    padding: 15px 0;
+    position: relative;
+    bottom: 0;
+    margin-top: 500px;
+}
+.nome {
+    width: 210px;
+    padding: 5px;
+    text-align: center;
+    border-top: solid 0;
+    border-bottom: solid 1px dimgray;
+    border-left: solid 0;
+    border-right: solid 0;
+}
+.nome p {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: large;
+    color: white;
+}
+.nome p :hover {
+    transition: 0.3s;
+    background-color: white;
+}
+.nome1 {
+    width: 153px;
+    padding: 5px;
+    border-top: solid 0 dimgray;
+    border-bottom: solid 1px dimgray;
+    border-left: solid 1px dimgray;
+    border-right: solid 0 dimgray;
+}
+.nome1 p {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: large;
+    color: white;
+}
+.principal {
+    margin: 100px 50px 0 600px;
+    padding: 15px;
+    width: 650px;
+    border: solid 3px rgb(49, 49, 49);
+    background-color: rgb(27, 27, 27);
+    border-radius: 4px;
+}
+.estatisticas {
+    padding: 5px;
+    width: 50px;
+    text-align: center;
+    border-top: solid 0 dimgray;
+    border-bottom: solid 1px dimgray;
+    border-left: solid 1px dimgray;
+    border-right: solid 0 dimgray;
+}
+.estatisticas p {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: large;
+    color: white;
+}
+.flex-conteiner {
+    display: flex;
+}
+.imagem {
+    border-top: solid 0;
+    border-bottom: solid 1px dimgray;
+    border-left: solid 0;
+    border-right: solid 0;
+}
+.imagem img {
+    width: 55px;
+    height: 55px;
+    margin: 0;
+}
+.posicao {
+    width: 56px;
+    text-align: center;
+    border-top: solid 0 dimgray;
+    border-bottom: solid 1px dimgray;
+    border-left: solid 0;
+    border-right: solid 0;
+}
+.posicao p {
+    padding: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: large;
+    color: white;
+}
+
+
+

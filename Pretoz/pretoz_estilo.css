@@ -1,0 +1,226 @@
+header {
+    background-color: chocolate;
+    border-radius: 0 0 130px 0;
+}
+.head {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.head div {
+    padding: 50px;
+}
+.botao1 button {
+    background-color: chocolate;
+    border: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: white;
+}
+.botao2 button a {
+    text-decoration: none;
+    color: white;
+}
+.botao2 button {
+    background-color: chocolate;
+    border: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+.botao2 button :hover {
+    transition: 0.3s;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: rgb(30, 33, 210);
+    font-size: 22px;
+}
+.botao2 button :not(:hover) {
+    transition: 0.3s;
+}
+.botao3 button a {
+    text-decoration: none;
+    color: white;
+}
+.botao3 button :hover {
+    transition: 0.3s;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: rgb(66, 210, 30);
+    font-size: 22px;
+}
+.botao3 button :not(:hover) {
+    transition: 0.3s;
+}
+.botao3 button {
+    background-color: chocolate;
+    border: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+.botao4 button {
+    background-color: chocolate;
+    border: 0;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.botao4 button a {
+    text-decoration: none;
+    color: white;
+}
+.botao4 button :hover {
+    transition: 0.3s;
+    padding: 10px 10px;
+    border-radius: 20px;
+    background-color: rgb(80, 6, 252);
+    font-size: 22px;
+}
+.botao4 button :not(:hover) {
+    transition: 0.3s;
+}
+body {
+    background-color: darkslategray;
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+.flex-conteiner {
+    display: flex;
+    gap: 50px;
+    margin: 20px 0;
+}
+.conteiner {
+    display: flex;
+    width: 200px;
+    height: 320px;
+    background-color: teal;
+    border-radius: 10px 35px;
+}
+.item1 {
+    width: 135px;
+    height: 320px;
+    border-radius: 10px;
+}
+.item2 {
+    width: 65px;
+    height: 320px;
+    background-color: rgb(27, 231, 231);
+    border-radius: 0 30px 5px 0;
+}
+.nivel p {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 35px;
+    font-weight: bold;
+    margin: 10px 0 0 0;
+}
+.posicao p {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0;
+}
+.imagem img {
+    width: 135px;
+    height: 135px;
+    border-radius: 10px 0 0 0;
+}
+.nome p {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    margin: 10px 0;
+}
+.conteudo {
+    display: flex;
+}
+.conteudo div {
+    padding-left: 4px;
+}
+.atributos p {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: medium;
+    color: white;
+}
+.clube {
+    margin: 5px 6px 0 6px;
+}
+.clube img {
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+}
+.bandeira {
+    margin: 5px 4px;
+}
+.bandeira img {
+    width: 56px;
+    height: 38px;
+}
+.perna p {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    text-align: center;
+}
+.principal {
+    padding: 100px 25%;
+}
+footer {
+    text-align: center;
+    background-color: gray;
+    width: 100%;
+    padding: 15px 0;
+    position: relative;
+    bottom: 0;
+    margin-top: 100px;
+}
+.cargo {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin-top: 60px;
+}
+.cargo p {
+    margin-bottom: 0;
+    margin-top: 0;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+}
+.tecnico {
+    display: flex;
+    gap: 20px;
+    width: 100%;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+.foto img {
+    width: 125px;
+    height: 125px;
+    border-radius: 62.5px;
+}
+.nome_tec h1 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+.nome_tec p {
+    margin-top: 5px;
+    padding-top: 0;
+}
+.idade h1 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+.idade p {
+    margin-top: 5px;
+    padding-top: 0;
+}
